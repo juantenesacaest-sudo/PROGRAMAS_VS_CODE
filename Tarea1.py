@@ -32,7 +32,10 @@ print ("Su saldo es: ", saldo)
 #Una f antes de las comillas permite hacer interpolación de variables, es decir, poner variables dentro de un string
 print (f"Su saldo es: {saldo}")
 
-
+"""
+la identación es importante en python, ya que define los bloques de código, 
+a diferencia de java que se usan llaves y el : en python indica que se va a crear un bloque de código
+"""
 if saldo < 10:
     print ("Es pobre")
 else:
