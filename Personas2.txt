@@ -1,0 +1,35 @@
+Persona 1
+Nombre: Alex
+Apellido: Minchala
+Edad: 18
+Ciudad: Cuenca
+Correo: alex@example.com
+
+Persona 2
+Nombre: Ana
+Apellido: Torres
+Edad: 20
+Ciudad: Quito
+Correo: ana@example.com
+
+Persona 3
+Nombre: Luis
+Apellido: Mora
+Edad: 19
+Ciudad: Loja
+Correo: luis@example.com
+
+Persona 4
+Nombre: María
+Apellido: Sánchez
+Edad: 21
+Ciudad: Azogues
+Correo: maria@example.com
+
+Persona 5
+Nombre: Carlos
+Apellido: Pérez
+Edad: 22
+Ciudad: Guayaquil
+Correo: carlos@example.com
+

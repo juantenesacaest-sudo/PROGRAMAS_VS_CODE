@@ -1,0 +1,7 @@
+arroz
+leche
+pan
+huevos
+queso
+azucar
+café
