@@ -39,7 +39,7 @@ class Lista_funciones:
         self.listarFunciones.append(medicamento)
         return medicamento
 
-    def buscar(self):
+    def mostrar(self):
         print("Código  |   Nombre   |  Precio   |  Cajas")
         for elemento in self.listarFunciones:
             print(elemento)
