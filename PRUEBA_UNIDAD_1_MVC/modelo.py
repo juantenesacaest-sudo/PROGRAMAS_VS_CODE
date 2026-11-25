@@ -16,7 +16,7 @@ class Medicamento:
         return True
 
     def __str__(self):
-            return f"{self.codigo}|{self.nombre}|{self.precio}|{self.cajas}"
+            return f"{self.codigo:<8}|{self.nombre:<14}|{self.precio:<10}|{self.cajas}"
     
 
 class Lista_funciones:
@@ -39,6 +39,7 @@ class Lista_funciones:
         self.listarFunciones.append(medicamento)
         return medicamento
 
+    
     def mostrar(self):
         print("Código  |   Nombre   |  Precio   |  Cajas")
         for elemento in self.listarFunciones:

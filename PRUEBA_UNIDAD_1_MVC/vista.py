@@ -9,7 +9,7 @@ class VistaOperacion:
         print("2. Mostrar medicamentos")
         print("3. Vender medicamento")
         print("4. Salir")
-        opcion=self.leer_entero("Ingrese una opción")
+        opcion=self.leer_mensaje("Ingrese la opcion: ")
         return opcion
 
     def agregar_medicamento(self):
@@ -34,7 +34,7 @@ class VistaOperacion:
         return codigo, cantidad
 
     def mostrar_medicamentos(self, medicamentos):
-        print(f"Codigo  |  Nombre  |  Precio  |  Cajas")
+        print(f"Codigo  |    Nombre    |  Precio  |  Cajas")
         for i in medicamentos:
             print(i)
 
@@ -60,3 +60,9 @@ class VistaOperacion:
                 print("El mensaje no puede estar vacio y no puede llevar comas")
             else:
                 return texto
+    def error(self, mensaje):
+            print("Mesaje de error")
+
+    def mostrar_mensaje(self, mensaje="Operacion correcta"):
+        print(mensaje)
+            
