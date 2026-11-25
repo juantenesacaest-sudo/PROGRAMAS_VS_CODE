@@ -34,10 +34,10 @@ d. Imprime (10, 99, 30)
 
 da TypeError
 """
-print(30*"=", "EJERCICIO 2")
-datos = (10, 20, 30)
-datos[1] = 99
-print(datos)
+#print(30*"=", "EJERCICIO 2")
+#datos = (10, 20, 30)
+#datos[1] = 99
+#print(datos)
 
 
 """
